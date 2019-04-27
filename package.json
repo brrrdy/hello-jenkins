@@ -1,0 +1,13 @@
+{
+    "name": "hi-jenkins",
+    "description": "hi jenkins test app",
+    "version": "0.0.1",
+    "private": "true",
+    "dependencies": {
+        "express": "4.16.4"
+    },
+    "devDependencies": {
+        "mocha": "6.1.4",
+        "supertest": "4.0.2"
+    }
+}
