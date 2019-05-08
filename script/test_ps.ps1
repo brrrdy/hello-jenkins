@@ -1,1 +1,1 @@
-.\node_modules\.bin\mocha .\test\test.js
+.\node_modules\.bin\mocha --exit .\test\test.js
