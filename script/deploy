@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+ssh hi-jenkins-test@34.211.210.236 <<EOF
+    cd ~/hi-jenkins
+
+    git fetch --all
+    git checkout --force origin
+
+    npm install --production
+    forever restartall
+    exit
+EOF
